@@ -3,7 +3,7 @@ Pillow
 numpy
 torch
 torchvision
-opencv-python-headless
+opencv-python
 matplotlib
 plotly
 ultralytics
