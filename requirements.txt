@@ -1,4 +1,4 @@
-ultralytics
+ultralytics==8.0.20
 Pillow
 numpy
 pycocotools
