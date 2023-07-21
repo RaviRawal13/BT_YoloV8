@@ -4,7 +4,6 @@ numpy
 torch
 torchvision
 opencv-python
-opencv
 matplotlib
 plotly
 ultralytics
