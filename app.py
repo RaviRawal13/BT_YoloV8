@@ -68,7 +68,7 @@ with col2:
         else:
             if st.sidebar.button('Detect Objects'):
                 res = model.predict(uploaded_image,
-                                    conf=confidence
+                                    conf=confidence,device="cpu" 
                                     )
                 boxes = res[0].boxes
                 res_plotted = res[0].plot()[:, :, ::-1]
