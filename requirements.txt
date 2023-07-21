@@ -1,6 +1,7 @@
 streamlit
 Pillow
 numpy
+cpuinfo
 torch
 torchvision
 opencv-python
