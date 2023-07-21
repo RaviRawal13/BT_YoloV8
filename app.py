@@ -31,7 +31,7 @@ model_path = Path(settings.SEGMENTATION_MODEL)
 
 # Load Pre-trained ML Model
 try:
-    model = YOLO(model_path)
+    model = YOLO(model_path, task='segment')
 except Exception as ex:
     st.error(f"Unable to load model. Check the specified path: {model_path}")
     st.error(ex)
