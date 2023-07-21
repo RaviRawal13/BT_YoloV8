@@ -1,6 +1,6 @@
 ultralytics
 streamlit
-
+py-cpuinfo
 Pillow
 PyYAML
 numpy
