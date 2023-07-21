@@ -1,2 +1,9 @@
 streamlit
+Pillow
+numpy
+torch
+torchvision
+opencv-python
+matplotlib
+plotly
 ultralytics
